@@ -1,0 +1,31 @@
+.VendingMachine-container {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100vh;
+  justify-content: center;
+}
+
+.VendingMachine-welcome,
+.VendingOptions {
+  margin: 0 10px; 
+  min-width: 25vw;
+  min-height: 25vh;
+  font-size: large;
+  background-color: rgba(0, 0, 0, 0.75); 
+  color: white; 
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.VendingOptions-link {
+  color: white;
+}
+
+.VendingOptions-link:active {
+  color: #FFD700;
+}
